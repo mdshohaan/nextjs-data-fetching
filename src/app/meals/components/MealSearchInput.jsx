@@ -6,7 +6,7 @@ export default function MealSearchInput() {
   //   const [meals, setMeals] = useState([]);
   const [search, setSearch] = useState("");
   const router = useRouter();
-  const pathname = usePathname();
+  const pathname = usePathname(); 
   useEffect(() => {
     const searchQuery = { search };
     const urlQueryParam = new URLSearchParams(searchQuery);
